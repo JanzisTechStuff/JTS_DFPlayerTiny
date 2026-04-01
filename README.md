@@ -108,7 +108,7 @@ uint8_t  currentVol;  // Current volume (used by volumeUp/Down)
 |---|---|
 | `BasicPlayback` | Minimal example, plays two tracks |
 | `PIR_Player` | PIR-controlled player without sleep |
-| `PIR_Player_Sleep` | PIR-controlled player with POWER_DOWN sleep (~0.1µA) |
+| `PIR_Player_Sleep` | PIR-controlled player with POWER_DOWN sleep (~1-3µA -> PIR-Sensor) |
 
 ## Notes
 
