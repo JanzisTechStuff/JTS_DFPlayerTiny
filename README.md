@@ -31,7 +31,7 @@ Copy `JTS_DFPlayerTiny.h` and `JTS_DFPlayerTiny.cpp` from the `src/` folder into
 ```cpp
 #include "JTS_DFPlayerTiny.h"
 
-DFPlayerTiny dfp;
+JTS_DFPlayerTiny dfp;
 
 void setup() {
     dfp.begin(Serial, 9600);     // Start Serial
