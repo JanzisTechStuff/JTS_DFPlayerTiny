@@ -30,7 +30,7 @@ uint16_t totalTracks       = 0;    // Total number of tracks on SD card
 
 // ── PIR Interrupt Service Routine ─────────────────────────────
 ISR(PORTA_PORT_vect) {
-    // Check if the interrupt is from PIR pin (PA1)
+    // Check if the interrupt is from PIR pin (PA2)
     if (PORTA.INTFLAGS & PIN2_bm) {
         PORTA.INTFLAGS = PIN2_bm; // Clear interrupt flag
         pirTriggered = true;  // Set flag to trigger playback
